@@ -8,7 +8,7 @@ A implementation of [Disentangled Makeup Transfer with Generative Adversarial Ne
 ## Training
 1. Download  MT (Makeup Transfer) dataset from [here](http://liusi-group.com/projects/BeautyGAN).
 
-2. Put MT (Makeup Transfer) dataset to .\data\RawData.
+2. Put MT (Makeup Transfer) dataset to `.\data\RawData`.
     Your data path will like this:
 ```
 .\data\RawData\images\makeup\\*.png
@@ -23,12 +23,12 @@ A implementation of [Disentangled Makeup Transfer with Generative Adversarial Ne
 4. Modify train.py and start training.  
     `python train.py` 
 
-5. run `python export.py` and you will get h5 model in .\\Export.
+5. run `python export.py` and you will get h5 model in `.\\Export`.
 
 ## Demo
 1. make sure you have run `python export.py` to get h5 model.
 
-2. Modify demo.py and run `python demo.py`, you will find the transfer result in .\\Transfer.  
+2. Modify demo.py and run `python demo.py`, you will find the transfer result in `.\\Transfer`.  
 
 
 ## Some issues to know
